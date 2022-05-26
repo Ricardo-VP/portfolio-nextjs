@@ -47,3 +47,30 @@ export const experiences = [
     to: 2018,
   },
 ];
+
+export const projects = [
+  {
+    name: "Awesome website 1",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elituibusdam, nisi vitae mollitia nobis temporibus facere cupiditate accusantium eum corporis alias aspernatur, dolor asperiores est eos officiis beatae error explicabo voluptates.",
+    image: "portfolio1.jpeg",
+  },
+  {
+    name: "Awesome website 2",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elituibusdam, nisi vitae mollitia nobis temporibus facere cupiditate accusantium eum corporis alias aspernatur, dolor asperiores est eos officiis beatae error explicabo voluptates.",
+    image: "portfolio2.jpg",
+  },
+  {
+    name: "Awesome website 3",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elituibusdam, nisi vitae mollitia nobis temporibus facere cupiditate accusantium eum corporis alias aspernatur, dolor asperiores est eos officiis beatae error explicabo voluptates.",
+    image: "portfolio3.png",
+  },
+  {
+    name: "Awesome website 4",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elituibusdam, nisi vitae mollitia nobis temporibus facere cupiditate accusantium eum corporis alias aspernatur, dolor asperiores est eos officiis beatae error explicabo voluptates.",
+    image: "portfolio4.png",
+  },
+];

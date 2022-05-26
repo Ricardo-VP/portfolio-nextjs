@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import { skills, experiences } from "../profile";
+import { skills, experiences, projects } from "../profile";
 
 const Index = () => (
   <Layout>
@@ -70,7 +70,31 @@ const Index = () => (
       </div>
     </div>
 
-
+    {/* Portfolio */}
+    <div className="row">
+      <div className="col-md-12">
+        <div className="card card-body bg-dark">
+          <div className="row">
+            <div className="col-md-12">
+              <h1 className="text-center text-light">Portfolio</h1>
+            </div>
+            {projects.map((project, i) => (
+              <div className="col-md-4 p-2" key={i}>
+                <div className="card h-100">
+                  <div className="overflow">
+                    <img src={project.image} alt="" className="card-img-top" />
+                  </div>
+                  <div className="card-body">
+                    <h3>{project.name}</h3>
+                    <p>{project.description}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
   </Layout>
 );
 

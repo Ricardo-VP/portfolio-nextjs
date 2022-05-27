@@ -9,7 +9,6 @@ const Layout = ({ children, footer = true, dark = false, title }) => {
 
   useEffect(() => {
     const handleRouteChange = (url) => {
-      console.log(url);
       nprogress.start();
     };
     router.events.on("routeChangeStart", handleRouteChange);

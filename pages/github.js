@@ -8,7 +8,7 @@ const Github = ({ user, error }) => {
 
   const { name, avatar_url, bio, html_url } = user;
   return (
-    <Layout>
+    <Layout footer={false} dark={true}>
       <div className="row">
         <div className="col-md-4 offset-md-4">
           <div className="card card-body text-center">

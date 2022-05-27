@@ -1,3 +1,11 @@
+body,
+html,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+}
+
 .overflow {
   height: 50%;
   overflow: hidden;

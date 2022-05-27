@@ -74,3 +74,24 @@ export const projects = [
     image: "portfolio4.png",
   },
 ];
+
+export const posts = [
+  {
+    title: "React",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elituibusdam, nisi vitae mollitia nobis temporibus facere cupiditate accusantium eum corporis alias aspernatur, dolor asperiores est eos officiis beatae error explicabo voluptates.",
+    imgURL: "https://miro.medium.com/max/1400/0*BDrQziSYswgeUdIS.jpg",
+  },
+  {
+    title: "Angular",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elituibusdam, nisi vitae mollitia nobis temporibus facere cupiditate accusantium eum corporis alias aspernatur, dolor asperiores est eos officiis beatae error explicabo voluptates.",
+    imgURL: "https://wallpapercave.com/wp/wp5722053.png",
+  },
+  {
+    title: "Vue",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elituibusdam, nisi vitae mollitia nobis temporibus facere cupiditate accusantium eum corporis alias aspernatur, dolor asperiores est eos officiis beatae error explicabo voluptates.",
+    imgURL: "https://wallpaperaccess.com/full/4584342.png",
+  },
+];

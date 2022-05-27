@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <title>My Portfolio</title>
         <meta name="Ricardo Vaca Portfolio" />
         <link
           rel="stylesheet"
@@ -15,6 +14,7 @@ export default function Document() {
         />
       </Head>
       <body>
+        <title>My Portfolio</title>
         <Main />
         <NextScript />
       </body>

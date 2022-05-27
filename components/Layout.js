@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import nprogress from "nprogress";
 import classNames from "classnames";
 
-const Layout = ({ children, footer = true, dark = false }) => {
+const Layout = ({ children, footer = true, dark = false, title }) => {
   const router = useRouter();
 
   useEffect(() => {
@@ -21,9 +21,16 @@ const Layout = ({ children, footer = true, dark = false }) => {
     };
   }, []);
   return (
-    <div className={classNames({ "bg-dark": dark })}>
+    <div className={classNames({ "bg-dark": dark, "bg-light": !dark })}>
       <Navbar />
-      <main className="container py-4">{children}</main>
+      <main className="container py-4">
+        {title && (
+          <h1 className={classNames("text-center", { "text-light": dark })}>
+            {title}
+          </h1>
+        )}
+        {children}
+      </main>
 
       {footer && (
         <footer className="bg-dark text-light text-center">
